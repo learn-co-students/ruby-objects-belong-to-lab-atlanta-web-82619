@@ -1,7 +1,5 @@
-require_relative 'artist'
+class Song
 
-class Song(artist)
-
-  @artist = artist
+  attr_accessor :title, :artist
 
 end
